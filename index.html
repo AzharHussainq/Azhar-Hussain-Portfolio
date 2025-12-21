@@ -5,22 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Azhar Hussain | Professional Digital Tools & Services Provider</title>
     <meta name="description" content="Azhar Hussain provides premium digital services including PDF conversion, document processing, and free online tools. Contact for professional solutions.">
-    <meta name="keywords" content="PDF converter, digital tools, online services, Azhar Hussain, document conversion, free tools, image converter">
+    <meta name="keywords" content="PDF converter, digital tools, online services, Azhar Hussain, document conversion, free tools, image converter, PDF to Word, Word to PDF">
     <meta name="author" content="Azhar Hussain">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://azharhussainq.github.io/Azhar-Hussain-Portfolio/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://azharhussainq.github.io/Azhar-Hussain-Portfolio/">
     <meta property="og:title" content="Azhar Hussain | Digital Tools & Services Provider">
     <meta property="og:description" content="Professional digital solutions, free online tools, and premium document conversion services.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://azharhussain.com">
-    <meta property="og:image" content="https://azharhussain.com/profile.png">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Azhar Hussain | Digital Tools Expert">
-    <meta name="twitter:description" content="Professional digital tools and services provider with expertise in document conversion and online utilities.">
+    <meta property="og:image" content="https://azharhussainq.github.io/Azhar-Hussain-Portfolio/profile.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://azharhussainq.github.io/Azhar-Hussain-Portfolio/">
+    <meta property="twitter:title" content="Azhar Hussain | Digital Tools Expert">
+    <meta property="twitter:description" content="Professional digital tools and services provider with expertise in document conversion and online utilities.">
+    <meta property="twitter:image" content="https://azharhussainq.github.io/Azhar-Hussain-Portfolio/profile.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://azharhussainq.github.io/Azhar-Hussain-Portfolio/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://azharhussainq.github.io/Azhar-Hussain-Portfolio/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://azharhussainq.github.io/Azhar-Hussain-Portfolio/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://azharhussainq.github.io/Azhar-Hussain-Portfolio/favicon-16x16.png">
+    
+    <!-- Fonts & Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
     <style>
-        /* CSS Reset & Base Styles */
+        /* CSS Reset & Base Styles - Mobile First */
         * {
             margin: 0;
             padding: 0;
@@ -28,17 +47,17 @@
         }
 
         :root {
-            --primary-color: #0a192f; /* Navy Blue */
-            --secondary-color: #00b4d8; /* Electric Blue */
-            --accent-color: #ff6b6b; /* Contrasting CTA color */
+            --primary-color: #0a192f;
+            --secondary-color: #00b4d8;
+            --accent-color: #ff6b6b;
             --light-color: #f8f9fa;
             --dark-color: #2d3748;
             --gray-color: #6c757d;
             --light-gray: #e9ecef;
-            --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-            --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.15);
-            --transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1);
-            --border-radius: 12px;
+            --shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+            --border-radius: 10px;
             --gradient-primary: linear-gradient(135deg, #0a192f 0%, #1a365d 100%);
             --gradient-secondary: linear-gradient(135deg, #00b4d8 0%, #0096c7 100%);
             --gradient-accent: linear-gradient(135deg, #ff6b6b 0%, #ff5252 100%);
@@ -46,22 +65,23 @@
 
         body {
             font-family: 'Inter', sans-serif;
-            line-height: 1.7;
+            line-height: 1.6;
             color: var(--dark-color);
             background-color: #fff;
             overflow-x: hidden;
+            font-size: 16px;
         }
 
         h1, h2, h3, h4 {
             font-family: 'Poppins', sans-serif;
             font-weight: 700;
             line-height: 1.2;
-            margin-bottom: 1.2rem;
+            margin-bottom: 1rem;
             color: var(--primary-color);
         }
 
         h1 {
-            font-size: 3.8rem;
+            font-size: 2.2rem;
             background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%);
             -webkit-background-clip: text;
             background-clip: text;
@@ -69,32 +89,32 @@
         }
 
         h2 {
-            font-size: 2.8rem;
+            font-size: 1.8rem;
             text-align: center;
-            margin-bottom: 3rem;
+            margin-bottom: 2rem;
             position: relative;
         }
 
         h2:after {
             content: '';
             position: absolute;
-            width: 100px;
-            height: 5px;
+            width: 60px;
+            height: 4px;
             background: var(--gradient-secondary);
-            bottom: -15px;
+            bottom: -10px;
             left: 50%;
             transform: translateX(-50%);
-            border-radius: 5px;
+            border-radius: 2px;
         }
 
         h3 {
-            font-size: 1.8rem;
+            font-size: 1.5rem;
         }
 
         p {
             margin-bottom: 1.2rem;
             color: var(--gray-color);
-            font-size: 1.05rem;
+            font-size: 1rem;
         }
 
         a {
@@ -114,34 +134,35 @@
         }
 
         .container {
-            width: 90%;
+            width: 100%;
             max-width: 1200px;
             margin: 0 auto;
-            padding: 0 20px;
+            padding: 0 15px;
         }
 
         section {
-            padding: 6rem 0;
+            padding: 3rem 0;
         }
 
         .section-title {
-            margin-bottom: 4rem;
+            margin-bottom: 2rem;
         }
 
         .section-subtitle {
             text-align: center;
             color: var(--gray-color);
-            max-width: 700px;
-            margin: 0 auto 4rem;
-            font-size: 1.1rem;
+            max-width: 100%;
+            margin: 0 auto 2rem;
+            font-size: 1rem;
+            padding: 0 10px;
         }
 
         .btn {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            gap: 10px;
-            padding: 1rem 2.2rem;
+            gap: 8px;
+            padding: 0.9rem 1.8rem;
             border-radius: var(--border-radius);
             font-weight: 600;
             cursor: pointer;
@@ -176,7 +197,7 @@
         }
 
         .btn-primary:hover {
-            transform: translateY(-5px);
+            transform: translateY(-3px);
             box-shadow: var(--shadow-lg);
         }
 
@@ -186,7 +207,7 @@
         }
 
         .btn-secondary:hover {
-            transform: translateY(-5px);
+            transform: translateY(-3px);
             box-shadow: var(--shadow-lg);
         }
 
@@ -199,7 +220,7 @@
         .btn-outline:hover {
             background-color: var(--secondary-color);
             color: white;
-            transform: translateY(-5px);
+            transform: translateY(-3px);
             box-shadow: var(--shadow-lg);
         }
 
@@ -209,36 +230,7 @@
             overflow: hidden;
         }
 
-        .ripple:after {
-            content: '';
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 5px;
-            height: 5px;
-            background: rgba(255, 255, 255, 0.5);
-            opacity: 0;
-            border-radius: 100%;
-            transform: scale(1, 1) translate(-50%);
-            transform-origin: 50% 50%;
-        }
-
-        .ripple:focus:after {
-            animation: ripple 1s ease-out;
-        }
-
-        @keyframes ripple {
-            0% {
-                transform: scale(0, 0);
-                opacity: 0.5;
-            }
-            100% {
-                transform: scale(100, 100);
-                opacity: 0;
-            }
-        }
-
-        /* Header & Navigation */
+        /* Header & Navigation - Mobile First */
         header {
             position: fixed;
             top: 0;
@@ -247,28 +239,28 @@
             z-index: 1000;
             background-color: rgba(255, 255, 255, 0.98);
             backdrop-filter: blur(10px);
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
             transition: var(--transition);
         }
 
         header.scrolled {
-            padding: 0.5rem 0;
+            padding: 0;
         }
 
         .navbar {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 1.5rem 0;
+            padding: 1rem 0;
         }
 
         .logo {
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-weight: 800;
             color: var(--primary-color);
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 8px;
         }
 
         .logo span {
@@ -276,52 +268,67 @@
         }
 
         .logo-icon {
-            width: 40px;
-            height: 40px;
+            width: 35px;
+            height: 35px;
             background: var(--gradient-secondary);
-            border-radius: 10px;
+            border-radius: 8px;
             display: flex;
             align-items: center;
             justify-content: center;
             color: white;
+            font-size: 0.9rem;
         }
 
         .nav-links {
-            display: flex;
-            gap: 2.5rem;
+            position: fixed;
+            top: 70px;
+            left: -100%;
+            width: 100%;
+            height: calc(100vh - 70px);
+            background-color: white;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding-top: 2rem;
+            transition: var(--transition);
+            gap: 1.5rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            z-index: 999;
+        }
+
+        .nav-links.active {
+            left: 0;
         }
 
         .nav-link {
             font-weight: 600;
             position: relative;
-            font-size: 1.05rem;
+            font-size: 1.1rem;
+            padding: 0.5rem 0;
         }
 
         .nav-link:after {
             content: '';
             position: absolute;
             width: 0;
-            height: 3px;
+            height: 2px;
             background: var(--gradient-secondary);
-            bottom: -5px;
+            bottom: 0;
             left: 0;
             transition: var(--transition);
-            border-radius: 3px;
+            border-radius: 1px;
         }
 
-        .nav-link:hover:after {
-            width: 100%;
-        }
-
-        .nav-link.active:after {
+        .nav-link:hover:after, .nav-link.active:after {
             width: 100%;
         }
 
         .hamburger {
-            display: none;
-            font-size: 1.8rem;
+            display: block;
+            font-size: 1.5rem;
             cursor: pointer;
             color: var(--primary-color);
+            z-index: 1001;
         }
 
         /* Hero Section */
@@ -333,26 +340,17 @@
             color: white;
             position: relative;
             overflow: hidden;
-            padding-top: 100px;
-        }
-
-        .hero:before {
-            content: '';
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><circle cx="500" cy="500" r="400" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="2"/><circle cx="500" cy="500" r="300" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="2"/><circle cx="500" cy="500" r="200" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="2"/></svg>');
-            background-size: cover;
-            opacity: 0.5;
+            padding-top: 80px;
         }
 
         .hero-content {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
+            display: flex;
+            flex-direction: column;
             align-items: center;
-            gap: 4rem;
+            gap: 2rem;
             position: relative;
             z-index: 2;
+            text-align: center;
         }
 
         .hero-text h1 {
@@ -360,25 +358,29 @@
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
-            font-size: 4rem;
-            margin-bottom: 1.5rem;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
             opacity: 0;
             animation: fadeUp 1s ease forwards;
         }
 
         .hero-text p {
             color: rgba(255, 255, 255, 0.85);
-            font-size: 1.3rem;
-            margin-bottom: 2.5rem;
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
             opacity: 0;
             animation: fadeUp 1s ease 0.3s forwards;
         }
 
         .hero-btns {
             display: flex;
-            gap: 1.5rem;
+            flex-direction: column;
+            gap: 1rem;
             opacity: 0;
             animation: fadeUp 1s ease 0.6s forwards;
+            width: 100%;
+            max-width: 300px;
+            margin: 0 auto;
         }
 
         .hero-image {
@@ -386,79 +388,24 @@
             position: relative;
             opacity: 0;
             animation: fadeIn 1s ease 0.9s forwards;
+            margin-top: 1rem;
         }
 
         .profile-img {
-            width: 420px;
-            height: 420px;
+            width: 280px;
+            height: 280px;
             border-radius: 50%;
             object-fit: cover;
-            border: 12px solid rgba(255, 255, 255, 0.15);
+            border: 8px solid rgba(255, 255, 255, 0.15);
             margin: 0 auto;
             box-shadow: var(--shadow-lg);
             transition: var(--transition);
         }
 
-        .profile-img:hover {
-            transform: scale(1.03);
-            border-color: rgba(255, 255, 255, 0.25);
-        }
-
-        /* Floating Elements */
-        .floating-elements {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            pointer-events: none;
-            z-index: 1;
-        }
-
-        .floating-element {
-            position: absolute;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 20px;
-            animation: float 6s ease-in-out infinite;
-        }
-
-        .floating-element:nth-child(1) {
-            width: 80px;
-            height: 80px;
-            top: 15%;
-            left: 10%;
-            animation-delay: 0s;
-        }
-
-        .floating-element:nth-child(2) {
-            width: 60px;
-            height: 60px;
-            top: 70%;
-            right: 15%;
-            animation-delay: 1s;
-        }
-
-        .floating-element:nth-child(3) {
-            width: 100px;
-            height: 100px;
-            bottom: 10%;
-            left: 20%;
-            animation-delay: 2s;
-        }
-
-        @keyframes float {
-            0%, 100% {
-                transform: translateY(0) rotate(0deg);
-            }
-            50% {
-                transform: translateY(-20px) rotate(10deg);
-            }
-        }
-
         /* Scroll Indicator */
         .scroll-indicator {
             position: absolute;
-            bottom: 40px;
+            bottom: 20px;
             left: 50%;
             transform: translateX(-50%);
             display: flex;
@@ -471,108 +418,65 @@
 
         .scroll-text {
             color: rgba(255, 255, 255, 0.8);
-            margin-bottom: 15px;
-            font-size: 1rem;
-            letter-spacing: 2px;
-            text-transform: uppercase;
+            margin-bottom: 10px;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
         }
 
         .scroll-icon {
-            width: 35px;
-            height: 60px;
-            border: 3px solid rgba(255, 255, 255, 0.7);
-            border-radius: 20px;
+            width: 30px;
+            height: 50px;
+            border: 2px solid rgba(255, 255, 255, 0.7);
+            border-radius: 15px;
             position: relative;
         }
 
         .scroll-icon:before {
             content: '';
             position: absolute;
-            top: 15px;
+            top: 10px;
             left: 50%;
             transform: translateX(-50%);
-            width: 6px;
-            height: 12px;
+            width: 4px;
+            height: 10px;
             background-color: rgba(255, 255, 255, 0.9);
-            border-radius: 3px;
+            border-radius: 2px;
             animation: scroll 2s infinite;
         }
 
         @keyframes scroll {
             0% {
-                top: 15px;
+                top: 10px;
                 opacity: 1;
             }
             100% {
-                top: 35px;
+                top: 30px;
                 opacity: 0;
             }
         }
 
         /* About Section */
-        .about {
-            background-color: var(--light-color);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .about:before {
-            content: '';
-            position: absolute;
-            top: -100px;
-            right: -100px;
-            width: 300px;
-            height: 300px;
-            background: var(--gradient-secondary);
-            border-radius: 50%;
-            opacity: 0.05;
-        }
-
         .about-content {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
             align-items: center;
-            position: relative;
-            z-index: 1;
         }
 
         .about-image {
-            position: relative;
+            width: 100%;
+            max-width: 400px;
         }
 
         .about-image img {
-            border-radius: var(--border-radius);
+            width: 100%;
+            height: auto;
             box-shadow: var(--shadow-lg);
-            transition: var(--transition);
-        }
-
-        .about-image img:hover {
-            transform: translateY(-10px);
-        }
-
-        .image-frame {
-            position: relative;
-            border-radius: var(--border-radius);
-            overflow: hidden;
-        }
-
-        .image-frame:after {
-            content: '';
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            right: -20px;
-            bottom: -20px;
-            border: 3px solid var(--secondary-color);
-            border-radius: var(--border-radius);
-            z-index: -1;
-            opacity: 0.3;
         }
 
         .about-text {
             opacity: 0;
-            transform: translateY(30px);
+            transform: translateY(20px);
             transition: opacity 0.8s ease, transform 0.8s ease;
         }
 
@@ -582,35 +486,36 @@
         }
 
         .expertise-list {
-            margin: 2rem 0;
+            margin: 1.5rem 0;
         }
 
         .expertise-item {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             margin-bottom: 1rem;
         }
 
         .expertise-icon {
-            width: 40px;
-            height: 40px;
+            width: 35px;
+            height: 35px;
             background: var(--gradient-secondary);
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             color: white;
-            margin-right: 15px;
+            margin-right: 12px;
             flex-shrink: 0;
+            font-size: 0.9rem;
         }
 
         .contact-info {
-            margin-top: 2.5rem;
+            margin-top: 2rem;
             display: flex;
             flex-direction: column;
-            gap: 1.2rem;
+            gap: 1rem;
             background: white;
-            padding: 2rem;
+            padding: 1.5rem;
             border-radius: var(--border-radius);
             box-shadow: var(--shadow);
         }
@@ -618,60 +523,42 @@
         .contact-item {
             display: flex;
             align-items: center;
-            gap: 15px;
+            gap: 12px;
             font-weight: 600;
         }
 
         .contact-item i {
             color: var(--secondary-color);
-            font-size: 1.3rem;
-            width: 30px;
+            font-size: 1.1rem;
+            width: 25px;
         }
 
         /* Services Section */
-        .services {
-            background-color: white;
-            position: relative;
-        }
-
-        .services:before {
-            content: '';
-            position: absolute;
-            bottom: -100px;
-            left: -100px;
-            width: 300px;
-            height: 300px;
-            background: var(--gradient-accent);
-            border-radius: 50%;
-            opacity: 0.05;
-        }
-
         .services-container {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 2.5rem;
-            position: relative;
-            z-index: 1;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
         }
 
         .service-card {
             background-color: white;
             border-radius: var(--border-radius);
             box-shadow: var(--shadow);
-            padding: 2.5rem;
+            padding: 1.5rem;
             text-align: center;
             transition: var(--transition);
             position: relative;
-            height: 350px;
+            height: auto;
+            min-height: 320px;
             perspective: 1000px;
             opacity: 0;
-            transform: translateY(30px);
-            border-top: 5px solid transparent;
+            transform: translateY(20px);
+            border-top: 4px solid transparent;
         }
 
         .service-card:hover {
-            border-top: 5px solid var(--secondary-color);
-            transform: translateY(-15px);
+            border-top: 4px solid var(--secondary-color);
+            transform: translateY(-5px);
             box-shadow: var(--shadow-lg);
         }
 
@@ -684,7 +571,7 @@
             position: relative;
             width: 100%;
             height: 100%;
-            transition: transform 0.8s;
+            transition: transform 0.6s;
             transform-style: preserve-3d;
         }
 
@@ -703,6 +590,8 @@
             justify-content: center;
             align-items: center;
             padding: 1rem;
+            top: 0;
+            left: 0;
         }
 
         .service-card-back {
@@ -710,12 +599,12 @@
             background: var(--gradient-secondary);
             color: white;
             border-radius: var(--border-radius);
-            padding: 2rem;
+            padding: 1.5rem;
         }
 
         .service-icon {
-            font-size: 3.5rem;
-            margin-bottom: 1.5rem;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
             display: inline-block;
             background: var(--gradient-secondary);
             -webkit-background-clip: text;
@@ -725,36 +614,17 @@
 
         .service-card-back p {
             color: rgba(255, 255, 255, 0.9);
-            margin-bottom: 2rem;
+            margin-bottom: 1.5rem;
         }
 
         /* Tools Section */
-        .tools {
-            background-color: var(--light-color);
-            position: relative;
-        }
-
-        .tools:after {
-            content: '';
-            position: absolute;
-            top: -50px;
-            right: -50px;
-            width: 200px;
-            height: 200px;
-            background: var(--gradient-primary);
-            border-radius: 50%;
-            opacity: 0.05;
-        }
-
         .tools-container {
-            max-width: 900px;
-            margin: 0 auto;
             background: white;
             border-radius: var(--border-radius);
             box-shadow: var(--shadow-lg);
             overflow: hidden;
             opacity: 0;
-            transform: translateY(30px);
+            transform: translateY(20px);
             transition: opacity 0.8s ease, transform 0.8s ease;
             border: 1px solid rgba(0, 0, 0, 0.05);
         }
@@ -767,64 +637,50 @@
         .tools-header {
             background: var(--gradient-primary);
             color: white;
-            padding: 3rem 2rem;
+            padding: 2rem 1rem;
             text-align: center;
             position: relative;
             overflow: hidden;
         }
 
-        .tools-header:before {
-            content: '';
-            position: absolute;
-            top: -50px;
-            right: -50px;
-            width: 150px;
-            height: 150px;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 50%;
-        }
-
         .tools-header h3 {
             color: white;
-            margin-bottom: 1rem;
-            position: relative;
-            z-index: 1;
+            margin-bottom: 0.8rem;
+            font-size: 1.5rem;
         }
 
         .tools-badge {
             display: inline-block;
             background: var(--gradient-accent);
             color: white;
-            padding: 0.5rem 1.5rem;
-            border-radius: 30px;
-            font-size: 1rem;
+            padding: 0.4rem 1.2rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
             font-weight: 700;
-            margin-bottom: 1.5rem;
-            letter-spacing: 1px;
-            position: relative;
-            z-index: 1;
+            margin-bottom: 1rem;
         }
 
         .tools-content {
-            padding: 3rem;
+            padding: 1.5rem;
         }
 
         .tools-list {
             display: flex;
             flex-wrap: wrap;
-            gap: 1rem;
-            margin: 2.5rem 0;
+            gap: 0.8rem;
+            margin: 1.5rem 0;
             justify-content: center;
         }
 
         .tool-tag {
             background: rgba(0, 180, 216, 0.1);
             color: var(--secondary-color);
-            padding: 0.8rem 1.5rem;
-            border-radius: 30px;
+            padding: 0.6rem 1rem;
+            border-radius: 20px;
             font-weight: 600;
-            border: 2px solid rgba(0, 180, 216, 0.2);
+            border: 1px solid rgba(0, 180, 216, 0.2);
             transition: var(--transition);
+            font-size: 0.9rem;
         }
 
         .tool-tag:hover {
@@ -834,34 +690,15 @@
         }
 
         /* Project Section */
-        .project {
-            background-color: white;
-            position: relative;
-        }
-
-        .project:before {
-            content: '';
-            position: absolute;
-            bottom: -100px;
-            right: -100px;
-            width: 300px;
-            height: 300px;
-            background: var(--gradient-secondary);
-            border-radius: 50%;
-            opacity: 0.05;
-        }
-
         .project-card {
-            max-width: 1000px;
-            margin: 0 auto;
             background: var(--light-color);
             border-radius: var(--border-radius);
             overflow: hidden;
             box-shadow: var(--shadow-lg);
-            display: grid;
-            grid-template-columns: 1fr 1fr;
+            display: flex;
+            flex-direction: column;
             opacity: 0;
-            transform: translateY(30px);
+            transform: translateY(20px);
             transition: opacity 0.8s ease, transform 0.8s ease;
             border: 1px solid rgba(0, 0, 0, 0.05);
         }
@@ -876,127 +713,101 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 3rem;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .project-image:before {
-            content: '';
-            position: absolute;
-            top: -50px;
-            left: -50px;
-            width: 150px;
-            height: 150px;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 50%;
+            padding: 2rem;
+            min-height: 250px;
         }
 
         .project-image img {
-            max-width: 100%;
-            border-radius: var(--border-radius);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-            position: relative;
-            z-index: 1;
-            transition: var(--transition);
-        }
-
-        .project-image img:hover {
-            transform: scale(1.03);
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
 
         .project-content {
-            padding: 3rem;
+            padding: 1.5rem;
         }
 
         .project-features {
-            margin: 1.5rem 0 2rem;
+            margin: 1rem 0 1.5rem;
         }
 
         .project-feature {
             display: flex;
             align-items: center;
-            margin-bottom: 1rem;
+            margin-bottom: 0.8rem;
         }
 
         .project-feature i {
             color: var(--secondary-color);
-            margin-right: 10px;
-            font-size: 1.2rem;
+            margin-right: 8px;
+            font-size: 1rem;
         }
 
         /* Ads Section */
         .ad-container {
             background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
             border-radius: var(--border-radius);
-            padding: 2rem;
+            padding: 1.5rem;
             text-align: center;
-            margin: 2.5rem auto;
+            margin: 1.5rem auto;
             border: 2px dashed #ced4da;
             color: var(--gray-color);
             font-weight: 600;
             transition: var(--transition);
+            display: block;
         }
 
         .ad-container:hover {
             border-color: var(--secondary-color);
-            transform: translateY(-5px);
+            transform: translateY(-3px);
             box-shadow: var(--shadow);
         }
 
         .ad-label {
-            font-size: 0.9rem;
-            margin-bottom: 0.8rem;
+            font-size: 0.8rem;
+            margin-bottom: 0.5rem;
             color: var(--primary-color);
             font-weight: 700;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 0.5px;
         }
 
         .ad-top {
-            margin-top: 100px;
-            max-width: 1200px;
+            margin-top: 80px;
         }
 
-        .ad-bottom {
-            max-width: 1200px;
+        /* Hide ads on very small screens */
+        @media (max-width: 480px) {
+            .ad-container {
+                display: none !important;
+            }
         }
 
         /* Footer */
         footer {
             background: var(--gradient-primary);
             color: white;
-            padding: 4rem 0 2rem;
+            padding: 3rem 0 1.5rem;
             position: relative;
             overflow: hidden;
         }
 
-        footer:before {
-            content: '';
-            position: absolute;
-            top: -100px;
-            left: -100px;
-            width: 300px;
-            height: 300px;
-            background: rgba(255, 255, 255, 0.03);
-            border-radius: 50%;
-        }
-
         .footer-content {
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
             align-items: center;
-            margin-bottom: 3rem;
-            position: relative;
-            z-index: 1;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
         }
 
         .footer-logo {
-            font-size: 2rem;
+            font-size: 1.8rem;
             font-weight: 800;
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 8px;
         }
 
         .footer-logo span {
@@ -1005,49 +816,49 @@
 
         .footer-social {
             display: flex;
-            gap: 1.2rem;
+            gap: 1rem;
         }
 
         .social-icon {
-            width: 50px;
-            height: 50px;
+            width: 45px;
+            height: 45px;
             border-radius: 50%;
             background: rgba(255, 255, 255, 0.1);
             display: flex;
             align-items: center;
             justify-content: center;
             transition: var(--transition);
-            font-size: 1.3rem;
+            font-size: 1.2rem;
         }
 
         .social-icon:hover {
             background: var(--secondary-color);
-            transform: translateY(-5px) scale(1.1);
+            transform: translateY(-3px);
         }
 
         .footer-bottom {
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
             align-items: center;
-            padding-top: 2rem;
+            gap: 1rem;
+            padding-top: 1.5rem;
             border-top: 1px solid rgba(255, 255, 255, 0.1);
-            position: relative;
-            z-index: 1;
+            text-align: center;
         }
 
         .copyright {
-            font-size: 0.95rem;
+            font-size: 0.9rem;
             color: rgba(255, 255, 255, 0.7);
         }
 
         .footer-links {
             display: flex;
-            gap: 2rem;
+            gap: 1.5rem;
         }
 
         .footer-link {
             color: rgba(255, 255, 255, 0.7);
-            font-size: 0.95rem;
+            font-size: 0.9rem;
         }
 
         .footer-link:hover {
@@ -1058,7 +869,7 @@
         @keyframes fadeUp {
             from {
                 opacity: 0;
-                transform: translateY(40px);
+                transform: translateY(20px);
             }
             to {
                 opacity: 1;
@@ -1075,23 +886,8 @@
             }
         }
 
-        /* Responsive Design */
-        @media (max-width: 1200px) {
-            h1 {
-                font-size: 3.2rem;
-            }
-            
-            h2 {
-                font-size: 2.5rem;
-            }
-            
-            .profile-img {
-                width: 380px;
-                height: 380px;
-            }
-        }
-
-        @media (max-width: 992px) {
+        /* Desktop Styles - Media Queries */
+        @media (min-width: 576px) {
             h1 {
                 font-size: 2.8rem;
             }
@@ -1100,124 +896,155 @@
                 font-size: 2.2rem;
             }
             
-            .hero-content {
-                grid-template-columns: 1fr;
-                text-align: center;
-                gap: 3rem;
-            }
-            
-            .about-content {
-                grid-template-columns: 1fr;
-                gap: 3rem;
-            }
-            
-            .project-card {
-                grid-template-columns: 1fr;
-            }
-            
-            .footer-content {
-                flex-direction: column;
-                gap: 2rem;
-                text-align: center;
-            }
-            
-            .footer-bottom {
-                flex-direction: column;
-                gap: 1.5rem;
-                text-align: center;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .hamburger {
-                display: block;
-            }
-            
-            .nav-links {
-                position: fixed;
-                top: 90px;
-                left: -100%;
-                width: 100%;
-                height: calc(100vh - 90px);
-                background-color: white;
-                flex-direction: column;
-                align-items: center;
-                justify-content: flex-start;
-                padding-top: 3rem;
-                transition: var(--transition);
-                gap: 2rem;
-                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-            }
-            
-            .nav-links.active {
-                left: 0;
-            }
-            
-            .hero-btns {
-                flex-direction: column;
-                align-items: center;
-            }
-            
-            .btn {
-                width: 100%;
-                max-width: 300px;
+            .container {
+                padding: 0 20px;
             }
             
             .profile-img {
-                width: 300px;
-                height: 300px;
+                width: 320px;
+                height: 320px;
+            }
+            
+            .hero-btns {
+                flex-direction: row;
+                max-width: 500px;
+            }
+            
+            .btn {
+                flex: 1;
             }
             
             .services-container {
-                grid-template-columns: 1fr;
-            }
-            
-            .tools-content {
-                padding: 2rem;
-            }
-            
-            .ad-container {
-                padding: 1.5rem;
-                font-size: 0.9rem;
-            }
-            
-            /* Hide ads on very small screens */
-            @media (max-width: 480px) {
-                .ad-container {
-                    display: none;
-                }
+                grid-template-columns: repeat(2, 1fr);
             }
         }
 
-        @media (max-width: 576px) {
+        @media (min-width: 768px) {
             h1 {
-                font-size: 2.3rem;
+                font-size: 3.2rem;
             }
             
             h2 {
-                font-size: 1.8rem;
+                font-size: 2.5rem;
             }
             
             section {
                 padding: 4rem 0;
             }
             
+            .hero-content {
+                flex-direction: row;
+                text-align: left;
+                gap: 3rem;
+            }
+            
+            .hero-text {
+                flex: 1;
+            }
+            
+            .hero-image {
+                flex: 1;
+                margin-top: 0;
+            }
+            
+            .hero-btns {
+                justify-content: flex-start;
+                margin: 0;
+                max-width: 100%;
+            }
+            
+            .hero-btns .btn {
+                flex: 0 1 auto;
+            }
+            
+            .about-content {
+                flex-direction: row;
+                gap: 3rem;
+            }
+            
+            .about-image, .about-text {
+                flex: 1;
+            }
+            
+            .services-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .project-card {
+                flex-direction: row;
+            }
+            
+            .project-image, .project-content {
+                flex: 1;
+            }
+            
+            .footer-content {
+                flex-direction: row;
+                justify-content: space-between;
+                text-align: left;
+            }
+            
+            .footer-bottom {
+                flex-direction: row;
+                justify-content: space-between;
+                text-align: left;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .hamburger {
+                display: none;
+            }
+            
+            .nav-links {
+                position: static;
+                width: auto;
+                height: auto;
+                background-color: transparent;
+                flex-direction: row;
+                padding-top: 0;
+                box-shadow: none;
+                gap: 2rem;
+            }
+            
+            .nav-link {
+                color: var(--primary-color);
+            }
+            
+            .nav-link:after {
+                bottom: -5px;
+            }
+            
+            .services-container {
+                grid-template-columns: repeat(4, 1fr);
+            }
+            
             .profile-img {
-                width: 250px;
-                height: 250px;
+                width: 380px;
+                height: 380px;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            h1 {
+                font-size: 3.8rem;
             }
             
-            .hero-text p {
-                font-size: 1.1rem;
+            h2 {
+                font-size: 2.8rem;
             }
             
-            .tools-list {
-                gap: 0.8rem;
+            section {
+                padding: 5rem 0;
             }
             
-            .tool-tag {
-                padding: 0.6rem 1.2rem;
-                font-size: 0.9rem;
+            .container {
+                padding: 0;
+            }
+            
+            .profile-img {
+                width: 420px;
+                height: 420px;
             }
         }
     </style>
@@ -1226,7 +1053,7 @@
     <!-- Ad Placeholder - Top Banner -->
     <div class="ad-container ad-top" id="ad-top">
         <div class="ad-label">Advertisement</div>
-        <div>Premium Ad Space - Rotating Banner (728x90 or responsive)</div>
+        <div>Premium Ad Space - Rotating Banner</div>
     </div>
 
     <!-- Header & Navigation -->
@@ -1256,11 +1083,6 @@
 
     <!-- Hero Section -->
     <section class="hero" id="home">
-        <div class="floating-elements">
-            <div class="floating-element"></div>
-            <div class="floating-element"></div>
-            <div class="floating-element"></div>
-        </div>
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
@@ -1268,10 +1090,10 @@
                     <p>Professional Digital Solutions Provider | Expert in Document Conversion & Online Tools</p>
                     <div class="hero-btns">
                         <a href="https://wa.me/923558137077" target="_blank" class="btn btn-primary ripple">
-                            <i class="fab fa-whatsapp"></i> Contact on WhatsApp
+                            <i class="fab fa-whatsapp"></i> WhatsApp
                         </a>
                         <a href="#tools" class="btn btn-outline ripple">
-                            <i class="fas fa-tools"></i> Explore My Tools
+                            <i class="fas fa-tools"></i> My Tools
                         </a>
                     </div>
                 </div>
@@ -1282,7 +1104,7 @@
             </div>
         </div>
         <div class="scroll-indicator">
-            <div class="scroll-text">Scroll to Explore</div>
+            <div class="scroll-text">Scroll</div>
             <div class="scroll-icon"></div>
         </div>
     </section>
@@ -1291,17 +1113,15 @@
     <section class="about" id="about">
         <div class="container">
             <h2 class="section-title">About Me</h2>
-            <p class="section-subtitle">With years of experience in digital solutions, I specialize in creating efficient tools and services that solve real-world problems for individuals and businesses.</p>
+            <p class="section-subtitle">With years of experience in digital solutions, I specialize in creating efficient tools and services that solve real-world problems.</p>
             <div class="about-content">
                 <div class="about-image">
-                    <div class="image-frame">
-                        <!-- Using your uploaded about.png -->
-                        <img src="about.png" alt="Azhar Hussain - About Professional Profile">
-                    </div>
+                    <!-- Using your uploaded about.png -->
+                    <img src="about.png" alt="Azhar Hussain - About Professional Profile">
                 </div>
                 <div class="about-text" id="aboutText">
-                    <h3>Digital Solutions Expert & Tool Developer</h3>
-                    <p>I'm Azhar Hussain, a dedicated digital tools and services provider with extensive expertise in document conversion, image processing, and online utility solutions. My passion lies in creating intuitive, efficient tools that simplify complex digital tasks.</p>
+                    <h3>Digital Solutions Expert</h3>
+                    <p>I'm Azhar Hussain, a dedicated digital tools and services provider with expertise in document conversion, image processing, and online utility solutions.</p>
                     
                     <div class="expertise-list">
                         <div class="expertise-item">
@@ -1309,7 +1129,7 @@
                                 <i class="fas fa-file-alt"></i>
                             </div>
                             <div>
-                                <strong>Document Conversion Specialist</strong> - Expert in PDF, Word, Excel conversions
+                                <strong>Document Conversion</strong> - Expert in PDF, Word, Excel conversions
                             </div>
                         </div>
                         <div class="expertise-item">
@@ -1317,20 +1137,12 @@
                                 <i class="fas fa-cogs"></i>
                             </div>
                             <div>
-                                <strong>Tool Development</strong> - Creating browser-based utilities for everyday tasks
-                            </div>
-                        </div>
-                        <div class="expertise-item">
-                            <div class="expertise-icon">
-                                <i class="fas fa-bolt"></i>
-                            </div>
-                            <div>
-                                <strong>Performance Optimization</strong> - Fast, efficient tools that work seamlessly
+                                <strong>Tool Development</strong> - Creating browser-based utilities
                             </div>
                         </div>
                     </div>
                     
-                    <p>Every solution I create is designed with user experience in mind, ensuring accessibility for users of all technical levels while maintaining professional-grade quality and reliability.</p>
+                    <p>Every solution I create is designed with user experience in mind, ensuring accessibility while maintaining professional-grade quality.</p>
                     
                     <div class="contact-info">
                         <div class="contact-item">
@@ -1341,10 +1153,6 @@
                             <i class="fas fa-envelope"></i>
                             <span><strong>Email:</strong> azarhussin44@gmail.com</span>
                         </div>
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span><strong>Availability:</strong> Online services available worldwide</span>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -1354,8 +1162,8 @@
     <!-- Services Section -->
     <section class="services" id="services">
         <div class="container">
-            <h2 class="section-title">Professional Services</h2>
-            <p class="section-subtitle">Premium document conversion services with guaranteed accuracy and fast turnaround times. Each service includes quality assurance and format preservation.</p>
+            <h2 class="section-title">Services</h2>
+            <p class="section-subtitle">Premium document conversion services with guaranteed accuracy and fast turnaround.</p>
             <div class="services-container">
                 <!-- Service 1 -->
                 <div class="service-card" id="service1">
@@ -1364,13 +1172,13 @@
                             <div class="service-icon">
                                 <i class="fas fa-file-pdf"></i>
                             </div>
-                            <h3>PDF to Word Converter</h3>
-                            <p>Convert PDF documents to fully editable Word format while preserving original formatting, fonts, and layout with 99% accuracy.</p>
+                            <h3>PDF to Word</h3>
+                            <p>Convert PDF to editable Word with formatting preserved.</p>
                         </div>
                         <div class="service-card-back">
-                            <h3>PDF to Word Conversion</h3>
-                            <p>Ideal for editing documents, extracting content, or repurposing PDF files. Supports batch conversion and maintains original layout, tables, and formatting.</p>
-                            <a href="https://wa.me/923558137077?text=Hi%20Azhar,%20I'm%20interested%20in%20your%20PDF%20to%20Word%20conversion%20service" target="_blank" class="btn btn-primary ripple">Get This Service</a>
+                            <h3>PDF to Word</h3>
+                            <p>Edit documents, extract content, repurpose PDF files with original layout.</p>
+                            <a href="https://wa.me/923558137077?text=Hi%20Azhar,%20I%20need%20PDF%20to%20Word%20conversion" target="_blank" class="btn btn-primary ripple">Get Service</a>
                         </div>
                     </div>
                 </div>
@@ -1382,13 +1190,13 @@
                             <div class="service-icon">
                                 <i class="fas fa-file-word"></i>
                             </div>
-                            <h3>Word to PDF Converter</h3>
-                            <p>Transform Word documents into professional, print-ready PDF files with consistent formatting and high-quality output.</p>
+                            <h3>Word to PDF</h3>
+                            <p>Transform Word to professional PDF files.</p>
                         </div>
                         <div class="service-card-back">
-                            <h3>Word to PDF Conversion</h3>
-                            <p>Create shareable, secure PDFs from your Word documents. Preserves fonts, images, layout, and hyperlinks for professional results and distribution.</p>
-                            <a href="https://wa.me/923558137077?text=Hi%20Azhar,%20I'm%20interested%20in%20your%20Word%20to%20PDF%20conversion%20service" target="_blank" class="btn btn-primary ripple">Get This Service</a>
+                            <h3>Word to PDF</h3>
+                            <p>Create shareable, secure PDFs from Word documents.</p>
+                            <a href="https://wa.me/923558137077?text=Hi%20Azhar,%20I%20need%20Word%20to%20PDF%20conversion" target="_blank" class="btn btn-primary ripple">Get Service</a>
                         </div>
                     </div>
                 </div>
@@ -1400,13 +1208,13 @@
                             <div class="service-icon">
                                 <i class="fas fa-file-excel"></i>
                             </div>
-                            <h3>PDF to Excel Converter</h3>
-                            <p>Extract tabular data from PDF files and convert to fully functional Excel spreadsheets with preserved cell structure.</p>
+                            <h3>PDF to Excel</h3>
+                            <p>Extract data from PDF to Excel spreadsheets.</p>
                         </div>
                         <div class="service-card-back">
-                            <h3>PDF to Excel Conversion</h3>
-                            <p>Perfect for data analysis, financial reports, or extracting tabular data from PDF format. Maintains data integrity, formulas, and table structure.</p>
-                            <a href="https://wa.me/923558137077?text=Hi%20Azhar,%20I'm%20interested%20in%20your%20PDF%20to%20Excel%20conversion%20service" target="_blank" class="btn btn-primary ripple">Get This Service</a>
+                            <h3>PDF to Excel</h3>
+                            <p>Perfect for data analysis, financial reports, tabular data extraction.</p>
+                            <a href="https://wa.me/923558137077?text=Hi%20Azhar,%20I%20need%20PDF%20to%20Excel%20conversion" target="_blank" class="btn btn-primary ripple">Get Service</a>
                         </div>
                     </div>
                 </div>
@@ -1418,13 +1226,13 @@
                             <div class="service-icon">
                                 <i class="fas fa-table"></i>
                             </div>
-                            <h3>Excel to PDF Converter</h3>
-                            <p>Convert Excel spreadsheets to PDF format while preserving formulas as values, charts, and professional formatting.</p>
+                            <h3>Excel to PDF</h3>
+                            <p>Convert Excel to PDF with formatting intact.</p>
                         </div>
                         <div class="service-card-back">
-                            <h3>Excel to PDF Conversion</h3>
-                            <p>Create fixed-format PDFs from your Excel files suitable for printing, sharing, or archiving. Charts, tables, and formatting remain intact.</p>
-                            <a href="https://wa.me/923558137077?text=Hi%20Azhar,%20I'm%20interested%20in%20your%20Excel%20to%20PDF%20conversion%20service" target="_blank" class="btn btn-primary ripple">Get This Service</a>
+                            <h3>Excel to PDF</h3>
+                            <p>Create fixed-format PDFs from Excel files for sharing/printing.</p>
+                            <a href="https://wa.me/923558137077?text=Hi%20Azhar,%20I%20need%20Excel%20to%20PDF%20conversion" target="_blank" class="btn btn-primary ripple">Get Service</a>
                         </div>
                     </div>
                 </div>
@@ -1436,40 +1244,36 @@
     <div class="container">
         <div class="ad-container">
             <div class="ad-label">Advertisement</div>
-            <div>Sponsored Content - This space supports free tool development</div>
+            <div>This space supports free tool development</div>
         </div>
     </div>
 
     <!-- Tools Section -->
     <section class="tools" id="tools">
         <div class="container">
-            <h2 class="section-title">Free Online Tools</h2>
-            <p class="section-subtitle">Access my collection of completely free, browser-based tools designed to simplify your digital tasks without any registration or cost.</p>
+            <h2 class="section-title">Free Tools</h2>
+            <p class="section-subtitle">Completely free, browser-based tools for your digital tasks.</p>
             <div class="tools-container" id="toolsContainer">
                 <div class="tools-header">
-                    <div class="tools-badge">Free & Fast Tools</div>
-                    <h3>ToolKit Pro - Ultimate Online Utilities</h3>
-                    <p>Comprehensive collection of free digital tools for everyday tasks</p>
+                    <div class="tools-badge">Free & Fast</div>
+                    <h3>ToolKit Pro</h3>
+                    <p>Ultimate collection of online utilities</p>
                 </div>
                 <div class="tools-content">
-                    <p>My flagship free tools platform offers a wide range of utilities designed to handle your digital tasks efficiently and securely. All tools work directly in your browser with no file uploads to external servers, ensuring complete privacy.</p>
+                    <p>My flagship free tools platform offers utilities that work directly in your browser with complete privacy.</p>
                     
                     <div class="tools-list">
-                        <div class="tool-tag">PDF Compressor</div>
-                        <div class="tool-tag">PDF Converter</div>
-                        <div class="tool-tag">Image Compressor</div>
-                        <div class="tool-tag">Image Converter</div>
-                        <div class="tool-tag">Document Tools</div>
-                        <div class="tool-tag">File Converters</div>
-                        <div class="tool-tag">Web Utilities</div>
-                        <div class="tool-tag">Batch Processing</div>
+                        <div class="tool-tag">PDF Tools</div>
+                        <div class="tool-tag">Image Tools</div>
+                        <div class="tool-tag">Converters</div>
+                        <div class="tool-tag">Utilities</div>
                     </div>
                     
-                    <p><strong>Key Benefits:</strong> All tools are completely free with no hidden costs, work efficiently on all devices including mobile, process files locally for maximum privacy, and support batch operations for productivity.</p>
+                    <p><strong>Benefits:</strong> Free, works on all devices, processes files locally, no registration.</p>
                     
-                    <div style="text-align: center; margin-top: 2.5rem;">
+                    <div style="text-align: center; margin-top: 1.5rem;">
                         <a href="https://azharhussainq.github.io/ToolKit-Pro/index.html" target="_blank" class="btn btn-secondary ripple">
-                            <i class="fas fa-external-link-alt"></i> Visit ToolKit Pro Platform
+                            <i class="fas fa-external-link-alt"></i> Visit ToolKit Pro
                         </a>
                     </div>
                 </div>
@@ -1480,40 +1284,34 @@
     <!-- Project Section -->
     <section class="project" id="project">
         <div class="container">
-            <h2 class="section-title">Professional Project</h2>
-            <p class="section-subtitle">Showcasing my expertise in creating user-friendly web applications for media conversion and processing.</p>
+            <h2 class="section-title">Project</h2>
+            <p class="section-subtitle">Showcasing my expertise in creating user-friendly web applications.</p>
             <div class="project-card" id="projectCard">
                 <div class="project-image">
-                    <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80" alt="Image Converter Pro Project - Professional Online Tool">
+                    <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Image Converter Pro Project">
                 </div>
                 <div class="project-content">
                     <h3>Image Converter Pro</h3>
-                    <p>A professional online platform for converting images between various formats with advanced options and batch processing capabilities. This project demonstrates my expertise in creating user-friendly web applications for media conversion.</p>
+                    <p>Professional online platform for converting images between formats with batch processing.</p>
                     
                     <div class="project-features">
                         <div class="project-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Supports JPG, PNG, WebP, SVG, BMP, TIFF, and more</span>
+                            <i class="fas fa-check"></i>
+                            <span>Multiple format support</span>
                         </div>
                         <div class="project-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Batch processing for multiple files simultaneously</span>
+                            <i class="fas fa-check"></i>
+                            <span>Batch processing</span>
                         </div>
                         <div class="project-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Quality adjustment and optimization options</span>
-                        </div>
-                        <div class="project-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Secure local processing (no uploads to external servers)</span>
+                            <i class="fas fa-check"></i>
+                            <span>Local processing (secure)</span>
                         </div>
                     </div>
                     
-                    <p>This platform is designed for both casual users and professionals who need reliable image conversion tools without installing software or compromising privacy.</p>
-                    
-                    <div style="margin-top: 2.5rem;">
+                    <div style="margin-top: 1.5rem;">
                         <a href="https://imageconverter2pro.blogspot.com/" target="_blank" class="btn btn-primary ripple">
-                            <i class="fas fa-external-link-alt"></i> Visit Image Converter Pro
+                            <i class="fas fa-external-link-alt"></i> Visit Project
                         </a>
                     </div>
                 </div>
@@ -1524,7 +1322,7 @@
     <!-- Ad Placeholder - Bottom Banner -->
     <div class="ad-container ad-bottom" id="ad-bottom">
         <div class="ad-label">Advertisement</div>
-        <div>Premium Ad Space - Bottom Banner (728x90 or responsive)</div>
+        <div>Premium Ad Space - Bottom Banner</div>
     </div>
 
     <!-- Footer -->
@@ -1551,7 +1349,7 @@
             </div>
             <div class="footer-bottom">
                 <div class="copyright">
-                    <p>&copy; 2023 Azhar Hussain. All rights reserved. | Professional Digital Tools & Services Provider</p>
+                    <p>&copy; 2023 Azhar Hussain. All rights reserved.</p>
                 </div>
                 <div class="footer-links">
                     <a href="#privacy" class="footer-link">Privacy</a>
@@ -1569,11 +1367,22 @@
             const hamburger = document.getElementById('hamburger');
             const navLinks = document.getElementById('navLinks');
             
-            hamburger.addEventListener('click', function() {
+            hamburger.addEventListener('click', function(e) {
+                e.stopPropagation();
                 navLinks.classList.toggle('active');
                 hamburger.innerHTML = navLinks.classList.contains('active') 
                     ? '<i class="fas fa-times"></i>' 
                     : '<i class="fas fa-bars"></i>';
+            });
+            
+            // Close mobile menu when clicking outside
+            document.addEventListener('click', function(e) {
+                if (navLinks.classList.contains('active') && 
+                    !navLinks.contains(e.target) && 
+                    !hamburger.contains(e.target)) {
+                    navLinks.classList.remove('active');
+                    hamburger.innerHTML = '<i class="fas fa-bars"></i>';
+                }
             });
             
             // Close mobile menu when clicking a link
@@ -1593,7 +1402,7 @@
             // Header scroll effect
             const header = document.getElementById('header');
             window.addEventListener('scroll', function() {
-                if (window.scrollY > 100) {
+                if (window.scrollY > 50) {
                     header.classList.add('scrolled');
                 } else {
                     header.classList.remove('scrolled');
@@ -1605,7 +1414,7 @@
                 
                 sections.forEach(section => {
                     const sectionHeight = section.offsetHeight;
-                    const sectionTop = section.offsetTop - 150;
+                    const sectionTop = section.offsetTop - 100;
                     const sectionId = section.getAttribute('id');
                     
                     if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
@@ -1677,7 +1486,7 @@
                 
                 elements.forEach(element => {
                     const elementPosition = element.getBoundingClientRect().top;
-                    const screenPosition = window.innerHeight / 1.2;
+                    const screenPosition = window.innerHeight / 1.1;
                     
                     if (elementPosition < screenPosition) {
                         element.classList.add('visible');
@@ -1694,69 +1503,64 @@
             // Smooth scrolling for anchor links
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    
                     const targetId = this.getAttribute('href');
                     if (targetId === '#') return;
                     
                     const targetElement = document.querySelector(targetId);
                     if (targetElement) {
+                        e.preventDefault();
                         window.scrollTo({
-                            top: targetElement.offsetTop - 100,
+                            top: targetElement.offsetTop - 80,
                             behavior: 'smooth'
                         });
                     }
                 });
             });
             
-            // Ad rotation simulation (placeholder)
+            // Ad rotation simulation
             const adContainers = document.querySelectorAll('.ad-container');
             const adMessages = [
                 "Advertisement - Premium placement available",
-                "Ad Space - Rotating banner slot for partners",
-                "Sponsored Content - This space supports free tool development",
-                "Ad Placement - For partnership inquiries contact via WhatsApp"
+                "Ad Space - This supports free tool development",
+                "Sponsored Content - For partnerships contact via WhatsApp"
             ];
             
-            // Rotate ad messages every 12 seconds
+            // Rotate ad messages every 10 seconds
             let adIndex = 0;
-            setInterval(() => {
-                adContainers.forEach(container => {
-                    const adLabel = container.querySelector('.ad-label');
-                    const adContent = container.querySelector('div:not(.ad-label)');
+            if (adContainers.length > 0) {
+                setInterval(() => {
+                    adContainers.forEach(container => {
+                        const adLabel = container.querySelector('.ad-label');
+                        const adContent = container.querySelector('div:not(.ad-label)');
+                        
+                        if (adLabel && adContent) {
+                            adContent.textContent = adMessages[adIndex];
+                        }
+                    });
                     
-                    if (adLabel && adContent) {
-                        adContent.textContent = adMessages[adIndex];
-                        // Add fade effect
-                        adContent.style.opacity = '0.7';
-                        setTimeout(() => {
-                            adContent.style.opacity = '1';
-                        }, 300);
-                    }
-                });
-                
-                adIndex = (adIndex + 1) % adMessages.length;
-            }, 12000);
+                    adIndex = (adIndex + 1) % adMessages.length;
+                }, 10000);
+            }
             
-            // Service card animation on hover (already handled by CSS)
-            // Add a small delay to service card animations for staggered effect
+            // Service card animation stagger
             document.querySelectorAll('.service-card').forEach((card, index) => {
                 card.style.transitionDelay = `${index * 0.1}s`;
             });
             
-            // Floating elements animation
-            const floatingElements = document.querySelectorAll('.floating-element');
-            floatingElements.forEach((element, index) => {
-                element.style.animationDelay = `${index * 2}s`;
-            });
-            
-            // Tool tag hover effect
-            document.querySelectorAll('.tool-tag').forEach(tag => {
-                tag.addEventListener('mouseenter', function() {
-                    this.style.transform = 'translateY(-5px)';
-                });
-                tag.addEventListener('mouseleave', function() {
-                    this.style.transform = 'translateY(0)';
+            // Prevent flipping on touch devices unless specifically tapped
+            let lastTap = 0;
+            document.querySelectorAll('.service-card').forEach(card => {
+                card.addEventListener('touchstart', function(e) {
+                    const currentTime = new Date().getTime();
+                    const tapLength = currentTime - lastTap;
+                    if (tapLength < 500 && tapLength > 0) {
+                        // Double tap - flip the card
+                        this.querySelector('.service-card-inner').style.transform = 
+                            this.querySelector('.service-card-inner').style.transform === 'rotateY(180deg)' 
+                            ? 'rotateY(0deg)' 
+                            : 'rotateY(180deg)';
+                    }
+                    lastTap = currentTime;
                 });
             });
         });
